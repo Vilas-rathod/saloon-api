@@ -82,6 +82,7 @@ spring:
       resource server:
         jwt:
           jwk-set-uri: "http://localhost:8080/realms/master/protocol/openid-connect/certs"
+#          jwk-set-uri: "http://localhost:8080/realms/salon-microservice-realm"
 
 management:
   endpoints:
